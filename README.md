@@ -1,5 +1,5 @@
 **ABOUT THE PROBLEM**
-   The project was to write a Java program Graph.java , that takes three command line arguments: two csv files(samples given below), and a function name. Based on the function        name, program output changes.
+   The project was to write a Java program Graph.java , that takes three command line arguments: two csv files(samples given below), and a function name. Based on the function name, program output changes.
 **FUNCTIONS IMPLEMENTED**
    1.average
    2.rank using merge sort
