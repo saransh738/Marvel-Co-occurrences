@@ -10,7 +10,7 @@ float upto two decimal places Sample random output:
 (c) Function: independent_storylines_dfs. Should implement DFS, then find independent storylines, that have no edge across them, using DFS. Print the characters in each independent storyline, as a separate line in the output. The largest storyline (with maximum characters) should appear at the top, followed by the second largest and so on. Within each line, the character names should be delimited with comma, and lexicographically sorted in descending order. If two storylines have same number of characters, ties should be broken in lexicographically descending order of character names. Sample random output:
 
 ## Structure:
-   Marvel characters graph
-    1.nodes.csv 327 nodes: Each node represents a character.
-    2.edges.csv 9891 edges (with weights): Edges between nodes/characters represents that the characters/nodes
+  * Marvel characters graph
+    * nodes.csv 327 nodes: Each node represents a character.
+    * edges.csv 9891 edges (with weights): Edges between nodes/characters represents that the characters/nodes
       have appeared together. Edge-weights are proportional to the number of co-occurrences.
