@@ -4,7 +4,7 @@
 
 (a) Function: average. Should print the average number of characters each Marvel character is associated with, as a
 float upto two decimal places Sample random output:
-($java solution nodes.csv edges.csv average
+[]($java solution nodes.csv edges.csv average
 7.43)
 (b) Function: rank. Should print a sorted list of all characters, with comma as delimiter (only comma, as delimiter and no space). Sorting should be in descending order of co-occurrence with other characters. That is, characters with more co-occurrences appear before. If there is a tie between characters based on co-occurrence count, then the order should be descending based on lexicographic order of the character strings. You can implement any O(nlogn) sorting algorithm. The test input file will be a huge graph and we will run the evaluation cases with timeout. If you implement O(n^2) sorting instead of O(nlogn) then the cases will timeout, and you will lose marks. Also don't use Java inbuilt sorting, but implement on your own. Sample random output:
 
